@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 84%;
+  margin: auto;
+}
+/* Default Class*/
+.default_title {
+  font-size: 38px;
+  font-weight: 600;
+}
+.default_p {
+  font-size: 16px;
+  color: #636363;
+  line-height: 21px;
+}
+.default_btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px 35px;
+  border: 2px solid;
+  background: #fff;
+  font-weight: bold;
+  border: 2px solid #f67c92;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 17px;
+}
+/* **************css start ***********/
+
+/* **************HEADER SECTION ***********/
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo {
+  width: 100px;
+}
+.logo h1 {
+  width: 80px;
+}
+.header_text {
+  margin-top: 100px;
+  width: 40%;
+}
+
+.square-single {
+  width: 13px;
+  height: 13px;
+  background-color: #f67c92;
+  display: inline-block;
+  margin: 13px 0px;
+}
+
+.square-box .square-1 {
+  width: 17px;
+  height: 17px;
+  display: block;
+  background-color: #f67c92;
+}
+.square-box .square-2 {
+  width: 65px;
+  height: 1px;
+  display: block;
+  background-color: #f67c92;
+}
+.square-box .square-3 {
+  width: 45px;
+  height: 1px;
+  display: block;
+  background-color: #f67c92;
+}
+.square-box span {
+  margin-top: 10px;
+}
+/* social media */
+.social-media {
+  width: 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.social-media ul {
+  list-style: none;
+}
+.social-media ul li {
+  margin: 19px 0px;
+}
+
+.social-media ul li a {
+  color: rgb(7, 6, 6);
+  font-size: 19px;
+}
+
+/* Navbar section */
+#sideNav {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: #f67c92;
+  transition: 0.4s;
+}
+nav ul {
+  list-style: none;
+  padding: 19px 24px;
+}
+nav ul li {
+  margin: 34px 0px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: 400;
+}
+#menuBtn {
+  width: 52px;
+  position: fixed;
+  top: 30px;
+  right: 68px;
+  cursor: pointer;
+  z-index: 2 !important;
+}
+/* **************ABOUT SECTION ***********/
+
+#about-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px 0px;
+}
+.about-left-col {
+  flex-basis: 50%;
+  background-image: url(../images/about.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.about-right-col {
+  flex-basis: 46%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-right-col .square-box {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+}
+.about-right-col h3 {
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 7px;
+  margin-top: 40px;
+}
+.about-right-col strong {
+  font-size: 21px;
+  color: gray;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* **************FEATURES SECTION ***********/
+#feature-main {
+  width: 100%;
+  padding: 30px 0px;
+}
+.features-box-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.single-box {
+  flex-basis: 31%;
+  text-align: center;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+.single-box img {
+  max-width: 115px;
+}
+.single-box h4 {
+  font-size: 21px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.feature-button-square {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+.about-right-col {
+  text-align: right;
+  margin-top: 5px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+.features-button {
+  text-align: left;
+}
+
+/* *************COURESE SECTION ***********/
+#courses-section {
+  padding: 40px 0px;
+}
+.courses-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.course-left-col {
+  flex-basis: 40%;
+}
+.course-right-col {
+  flex-basis: 50%;
+}
+
+#offer-bg {
+  background-image: url(../images/offer.png);
+  background-position: -61px center;
+}
+
+/* *************CONTACT SECTION ***********/
+
+#contact-section {
+  margin-top: 20px;
+  padding: 40px 0px;
+}
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact-left-col {
+  flex-basis: 40%;
+}
+.contact-right-col {
+  flex-basis: 50%;
+}
+form {
+  margin-top: 25px;
+}
+form input {
+  display: block;
+  width: 91%;
+  outline: none !important;
+  padding: 11px 15px;
+  margin-top: 7px;
+  font-size: 15px;
+  border: 2px solid #f193a4a8;
+}
+
+.contact-button1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.contact-button1 button {
+  flex-basis: 48% !important;
+}
+
+/* **************FOOTER SECTION ***********/
+
+footer {
+  padding-bottom: 40px;
+}
+.footer-row {
+  border-top: 1px solid #f67c92;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-list-left {
+  flex-basis: 55%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text-left {
+  flex-basis: 20%;
+}
+.footer-text-left strong {
+  font-size: 18px;
+  margin-bottom: 16px;
+  display: block;
+  color: #f67c9286;
+}
+.footer-text-left ul {
+  list-style-type: none;
+}
+
+.footer-copyright {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.copyright-text span {
+  display: block;
+}
+.company-language {
+  flex-basis: 40%;
+  text-align: center;
+}
+.company-language img {
+  width: 85px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.copyright-text {
+  margin-bottom: 27px;
+  text-align: center;
+  font-size: 13px;
+  margin-left: 34px;
+}
+.company-language button {
+  padding: 11px 30px;
+  font-size: 14px;
+}
+
+/*
+===================================
+      MEDIA QUARY
+===================================
+ */
+@media only screen and (max-width: 1084px) {
+  .contact-button1 button {
+    flex-basis: 48% !important;
+    padding: 15px 26px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  header {
+    background-image: none;
+  }
+  .default_title {
+    font-size: 30px;
+  }
+  .default_btn {
+    font-size: 15px;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+  }
+  .container {
+    width: 88%;
+  }
+
+  .social-media ul li {
+    margin: 16px 0px;
+  }
+
+  .social-media ul li a {
+    color: rgb(7, 6, 6);
+    font-size: 17px;
+  }
+  .logo {
+    width: 60px;
+  }
+  .logo h1 {
+    width: 60px;
+  }
+  .header_text {
+    margin-top: 100px;
+    width: 80%;
+  }
+  #menuBtn {
+    width: 37px;
+    right: 28px;
+  }
+  .about-right-col {
+    padding-right: 0px;
+  }
+
+  #about-main {
+    padding: 60px 0px;
+    justify-content: space-between;
+  }
+  .about-left-col {
+    flex-basis: 100%;
+  }
+  .about-right-col {
+    flex-basis: 100%;
+    margin-top: 32px;
+  }
+  .about-right-col h3 {
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  .about-right-col strong {
+    font-size: 15px;
+  }
+
+  .features-box-main {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .single-box {
+    padding: 13px 20px;
+  }
+
+  .feature-button-square {
+    padding: 18px 0px;
+    justify-content: space-between;
+    margin: 36px 0px;
+  }
+
+  #d-flex {
+    flex-basis: 48%;
+    margin-top: 12px;
+  }
+  #d-flex .square-box {
+    margin-top: 11px;
+  }
+
+  #d-flex {
+    text-align: left;
+    flex-basis: 48%;
+  }
+
+  .course-left-col .default_title {
+    width: 225px;
+  }
+  .courses-row {
+    flex-direction: column;
+  }
+
+  .course-right-col {
+    margin-top: 50px;
+  }
+  #about-main {
+    margin-top: 65px;
+  }
+
+  .about-right-col {
+    margin-top: 40px;
+  }
+  .contact-row {
+    flex-direction: column;
+  }
+  .contact-left-col {
+    width: 65%;
+  }
+  form input {
+    width: 88%;
+    display: block;
+  }
+  .contact-right-col {
+    margin-top: 55px;
+  }
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .social-media {
+    left: -8px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .default_btn {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .default_btn {
+    font-size: 12px;
+  }
+}
